@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: integration-service-api
 spec:
-  replicas: 5
+  replicas: 1 
   revisionHistoryLimit: 3
   selector:
     matchLabels:
